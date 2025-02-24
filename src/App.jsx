@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className='home'>
-        <form name='contact' data-netlify="true">
+        <form name='contact' onSubmit="submit" method='POST' data-netlify="true" netlify>
           <input type="text" name="name" id="" placeholder='name' />
           <input type="text" name="surname" id="" placeholder='surname'/>
           <input type="email" name="email" id="" placeholder='email'/>
